@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+}
+.header {
+    width: 100vw;
+    height: 20vh;
+}
+.main {
+    width: 100vw;
+    min-height: 70vh;
+    position: relative;
+    padding-bottom: 1em;
+}
+.logo {
+    height: 30px;
+    margin: 0.5em 2em;
+}
+.burger {
+    margin: 1em;
+}
+.container-title {
+    width: 100vw;
+    padding: 1em;
+    background-color: #DD1F79;
+    margin: 0!important;
+    color: white;
+}
+.nav-link:active {
+    background-color: #DD1F79;
+    color: white;
+    font-weight: bold;
+}
+.nav-item:hover {
+    background-color: #DD1F79;
+    color: white;
+}
+.nav-link:hover {
+    background-color: #DD1F79;
+    color: white;
+}
+
+.filter {
+    width: 90vw;
+    padding: 1em;
+}
+
+.check {
+    padding: 1em;
+}
+.check-input {
+    margin: 0.5em;
+}
+.search-text {
+    margin: 1em;
+}
+
+.search-icon {
+    margin: 1em;
+}
+.card {
+    width: 16rem;
+    height: 100;
+    margin: 0.50em;
+}
+.card-details {
+    width: 60vw;
+    height: 40vh;
+}
+.card-img-details {
+    height: 30vh;
+    margin: 1em;
+}
+.form-group {
+    margin: 2em;
+    width: 70vw;
+}
+
+.table {
+    margin-top: 5vh;
+}
+
+.thead-stats {
+    background: #DD1F79;
+    color: white;
+}
+
+.btn-submit {
+    width: 200px;
+}
+.footer { 
+    background-color: #ad0855;
+    width: 100vw;
+    height: 10vh;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    padding: 3em;
+    color: white;
+    font-weight: bold;
+}
